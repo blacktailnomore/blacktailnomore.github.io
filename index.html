@@ -127,6 +127,7 @@
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">ftpsync</span></span><br><span class="line"><span class="attr">  host:</span> <span class="string">your</span> <span class="string">host</span></span><br><span class="line"><span class="attr">  user:</span> <span class="string">your</span> <span class="string">username</span></span><br><span class="line"><span class="attr">  pass:</span> <span class="string">your</span> <span class="string">pass</span></span><br><span class="line"><span class="attr">  remote:</span> <span class="string">your</span> <span class="string">blog</span> <span class="string">root</span></span><br><span class="line"><span class="attr">  port:</span> <span class="string">your</span> <span class="string">blog</span> <span class="string">port</span></span><br><span class="line"><span class="attr">  ignore:</span></span><br><span class="line"><span class="attr">  connections:</span> <span class="number">1</span></span><br><span class="line"><span class="attr">  verbose:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 <p><code>deploy</code>有多种方式可选。如果想要同时部署多个<code>type</code>：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">- type:</span> <span class="string">ftpsync</span></span><br><span class="line"><span class="attr">  host:</span> </span><br><span class="line"><span class="attr">  user:</span> </span><br><span class="line"><span class="attr">  pass:</span> </span><br><span class="line"><span class="attr">  remote:</span> </span><br><span class="line"><span class="attr">  port:</span> </span><br><span class="line"><span class="attr">  ignore:</span></span><br><span class="line"><span class="attr">  connections:</span> <span class="number">1</span></span><br><span class="line"><span class="attr">  verbose:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">- type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> </span><br><span class="line"><span class="attr">  branch:</span> </span><br><span class="line"><span class="attr">  message:</span></span><br></pre></td></tr></table></figure>
+<p>每种<code>type</code>需要安装对应依赖。</p>
 <p>最后输入：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 <p>即可按照配置进行发布。</p>
@@ -135,7 +136,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.nonblacktail.moe/2018/04/24/用hexo搭建博客/" data-id="cjgdqhu1y000204uyi6c4cty4" class="article-share-link">Share</a>
+      <a data-url="http://www.nonblacktail.moe/2018/04/24/用hexo搭建博客/" data-id="cjgdshaxa000118uy33wet9wm" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/windows/">windows</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li></ul>
@@ -194,7 +195,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.nonblacktail.moe/2018/04/20/hello-world/" data-id="cjgdqhu1u000004uyo9q7kff8" class="article-share-link">Share</a>
+      <a data-url="http://www.nonblacktail.moe/2018/04/20/hello-world/" data-id="cjgdshaxg000318uy64sa7vnc" class="article-share-link">Share</a>
       
       
     </footer>
